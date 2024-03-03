@@ -115,8 +115,325 @@ header{
 .popular-description ul li{
     margin-bottom: 30px;
 }
-.popular-img img{
+.destination{
+    width: 80%;
+    margin: 60px auto;
+}
+.destination h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.destination p{
+    margin: 30px 300px;
+    font-size: 1rem;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 25px;
+}
+.destination-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.img-box{
+    position: relative;
+}
+.img-box-1 p{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 45%;
+    left:-15%;
+}
+.img-box-2 p{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    left:-10%;
+}
+.img-box-3 p{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 35%;
+    left:-40%;
+}
+.img-box-4 p{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    line-height: 30px;
+    position: absolute;
+    top: 40%;
+    left:-25%;
+}
+.img-box-5 p{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    left:-80%;
+}
+.img-box-6 p{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 35%;
+    left:-32%;
+}
+.img-box-7 p{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 45%;
+    left:-7%;
+}
+
+/* choose section syle */
+.choose{
+    width: 80%;
+    margin: 30px auto;
+}
+.choose h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.choose p{
+    margin: 30px 300px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 25px;
+}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.services p{
+    margin: 10px 0;
+    text-align: left;
+}
+.services h4{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.services i{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.hotel, .price{
+    background-color: #fffbf7;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px  rgb(224, 224, 224);
+}
+.map{
+    background-color: #f4fdff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px  rgb(224, 224, 224);
+}
+.price{
+    
+}
+.deals{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.deals h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.deals p{
+    font-size: 1rem;
+    margin: 10px 300px;
+    text-align: center;
+    line-height: 25px;
+}
+.offer1{
+    height: 60vh;
+    margin-top: 50px;
+    background-image: url(/Images/offer1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 15px;
+}
+.offer-description{
+    height: auto;
+    width: 50%;
+    margin: 0;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgb(174, 173, 173);
+}
+.duration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.duration div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.offer1 p{
+    font-size: 1rem;
+    margin: 10px 0px;
+    text-align: left;
+    line-height: 25px;
+}
+.offer1 h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.offer1 button{
+    width: 30%;
+}
+.offer2{
+    background-image: url(/Images/offer2.jpg);
+    justify-content: flex-start;
+}
+.offer3{
+    background-image: url(/Images/offer3.jpg);
+}
+
+/* place section style */
+.place{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    gap: 30px;
+}
+.place-description h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.place-description p{
+    font-size: 1rem;
+    margin: 30px 0px;
+    line-height: 25px;
+}
+.place-description ul li{
+    margin-bottom: 30px;
+}
+.place-img{
+    position: relative;
+}
+.place-img video{
+    border-radius: 15px;
+}
+.place-img p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+/* newsletter section style */
+
+.newsletter{
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.newsletter-form{
+    border: 2px solid var(--primary-color);
+    padding: 50px;
+    border-radius: 15px;
+}
+.newsletter-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:15px;
+}
+.newsletter-form form h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.newsletter-form form p{
+    line-height: 25px;
+}
+.newsletter-form form input{
+    outline: none;
+    border: none;
+    background-color: rgb(206, 206, 206);
+    padding: 15px;
+    border-radius: 8px;
+}
+.newsletter-form form input::placeholder{
+    color: black;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.newsletter-discount{
+    position: relative;
+}
+.newsletter-discount img{
     width: 100%;
+}
+.save-up{
+    position: absolute;
+    background-color: var(--primary-color);
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    top: 58%;
+    left: 58%;
+    transform: rotate(-30deg);
+}
+/* footer section style  */
+
+.footer{
+    min-height: 60vh;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.footer p{
+    margin: 0 350px;
+    text-align: center;
+    line-height: 25px;
+}
+.footer hr{
+    width: 50%;
+}
+.social-icon{
+    display: flex;
+    gap: 30px;
+    font-size: 2rem;
 }
 /* responsive for small device */
 @media screen and (max-width:600px) {
@@ -151,5 +468,127 @@ header{
     .popular{
         flex-direction: column;
     }
-
+    .popular-img img{
+        width: 100%;
+    }
+    .destination p{
+        margin: 30px 00px;
+    }
+    .destination-img{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .img-box img{
+        width: 100%;
+        height: 40vh;
+        position: relative;
+    }
+    .img-box-1 p{
+        font-size: 2rem;
+        color: white;
+        font-weight: 700;
+        position: absolute;
+        top: 40%;
+        left:35%;
+    }
+    .img-box-2 p{
+        font-size: 2rem;
+        color: white;
+        font-weight: 700;
+        position: absolute;
+        top: 35%;
+        left: 32%;
+    }
+    .img-box-3 p{
+        font-size: 2rem;
+        color: white;
+        font-weight: 700;
+        position: absolute;
+        top: 35%;
+        left: 35%;
+    }
+    .img-box-4 p{
+        font-size: 2rem;
+        color: white;
+        font-weight: 700;
+        line-height: 30px;
+        position: absolute;
+        top: 35%;
+        left:25%;
+    }
+    .img-box-5 p{
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        position: absolute;
+        top: 35%;
+        left:35%;
+    }
+    .img-box-6 p{
+        font-size: 2rem;
+        color: white;
+        font-weight: 700;
+        position: absolute;
+        top: 35%;
+        left: 30%;
+    }
+    .img-box-7 p{
+        font-size: 2rem;
+        color: white;
+        font-weight: 700;
+        position: absolute;
+        top: 35%;
+        left: 30%;
+    }
+    .choose p{
+        margin: 20px;
+    }
+    .services{
+        grid-template-columns:1fr;
+        gap: 20px;
+    }
+    .deals p{
+        margin: 10px 10px;
+    }
+    .duration{
+        flex-wrap: wrap;
+    }
+    .offer1{
+        height: 100vh;
+        padding: 20px;
+        align-items: flex-end;
+    }
+    .offer-description{
+        height: 60%;
+        padding: 20px;
+        width: 100%;
+    }
+    .offer1 button{
+        width: 50%;
+    }
+    .place{
+        flex-direction: column;
+    }
+    .place-img video{
+        width: 100%;
+    }
+    .place-img p{
+        top: 50%;
+        left: 10%;
+        
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .save-up{
+        top: 45%;
+        left: 35%;
+    }
+    .footer p{
+        margin: 0 10px;
+        text-align: center;
+        line-height: 25px;
+    }
 }
